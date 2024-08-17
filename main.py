@@ -1,9 +1,7 @@
-
-
-
-
 from gtts import gTTS
 import os
+
+# Note: Dont use VLC to play the audio files. Because it will fade in and fade out the audio file. But the audio file is so short, that it will sound wrong. Use another app than VLC.
 
 # List of Danish letters and numbers
 danish_characters = [
